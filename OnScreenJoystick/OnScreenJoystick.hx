@@ -1,6 +1,5 @@
 /* written by Dmitriy Maslennikov
-   maslennikovDA@gmail.com
-*/
+   maslennikovDA@gmail.com */
 
 package onScreenJoystick;
 
