@@ -1,3 +1,7 @@
+/* written by Dmitriy Maslennikov
+   maslennikovDA@gmail.com
+*/
+
 package onScreenJoystick;
 
 import flash.display.Sprite;
