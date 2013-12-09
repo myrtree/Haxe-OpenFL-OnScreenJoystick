@@ -1,3 +1,6 @@
+/* written by Dmitriy Maslennikov
+   maslennikovDA@gmail.com */
+
 package onScreenJoystick;
 
 import flash.events.Event;
