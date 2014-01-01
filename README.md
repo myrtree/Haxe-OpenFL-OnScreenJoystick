@@ -1,7 +1,7 @@
 OnScreenJoystick
 =====================
 
-Simple and usefull multi-touch on screen analog joystick written on **haxe**.
+Simple and usefull multi-touch on screen analog joystick written on **haxe** using **OpenFL**.
 
 Usage example:
 
