@@ -43,8 +43,8 @@ class BasicSimulation extends Sprite {
     }
   }
 
-  function initialise(ev:Event):Void {
-    if (ev != null) {
+  function initialise(event: Event): Void {
+    if (event != null) {
       removeEventListener(Event.ADDED_TO_STAGE, initialise);
     }
     var gravity = Vec2.weak(0, 600);
@@ -79,7 +79,7 @@ class BasicSimulation extends Sprite {
     addChild(ball_texture);
   }
 
-  function enterFrameHandler(ev: Event):Void {
+  function enterFrameHandler(event: Event):Void {
     space.step(1 / stage.frameRate);
 
     if(ball_texture.x != ball.position.x || ball_texture.y != ball.position.y) {
